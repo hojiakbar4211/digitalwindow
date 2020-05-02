@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body onload="loade()" class="bg-img4">
+
+<div class="container">
+    <div class="row ">
+        <div class="col-md-10 mt-5  offset-md-1">
+            <div class="row">
+                <div class="col-md-12">
+
+                </div>
+            </div>
+            <div class="row mt-5 ">
+                <div class="col-md-6 offset-md-3">
+                  <div class="card py-4 px-3" style="background:rgba(155,155,155,0.34);">
+                      <div class="form-group">
+                          <label for="name">Name</label>
+                          <input type="text" class="form-control"  onkeyup="enterSave(event)"  id="name" placeholder="">
+                      </div>
+                      <div class="form-group">
+                          <label for="password">Password</label>
+                          <input type="password" class="form-control"  onkeyup="enterSave(event)"  id="password" placeholder="">
+                      </div>
+                      <div class="form-group">
+                          <label for="telNum">Phone number</label>
+                          <input type="number" class="form-control" onkeyup="enterSave(event)"  id="telNum" value="9989" placeholder="">
+                      </div>
+                      <div class="form-group">
+                          <label for="roomNum">Room number</label>
+                          <input type="number" class="form-control" onkeyup="enterSave(event)"  id="roomNum" value="" placeholder="">
+                      </div>
+                      <a href="digital.html" class="btn btn-success mt-3"   onclick="save()">Save</a>
+                  </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<script src="js/jQuery.min.js"></script>
+<script src="js/popper.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
+
